@@ -69,6 +69,21 @@ You may also need the ```-f``` flag if you have unmerged changes. It may also pr
 
 ```git checkout -b <my_new_branch> origin/master``` --> will create the new branch and automatically have it set to pull from master
 
+# Bash programs you will use often
+The list of the small programs that come with Bash is long. Here are the ones you will probably use most often.
+
+- ```pwd``` - print working directory - this will show you your current location in the directory structure
+- ```ls``` - list - lists all files and directories. when used with ```-a``` it will also show you hidden files ("dotfiles")
+- ```cat``` - concatenate - print the content of a file to the terminal, i.e. ```cat hello.txt```
+- ```cd```- change directory - used to switch to a different directory. for example ```cd dev/myproject```, ```cd ..``` or ```cd ~```
+- ```touch``` - will create an empty file with the name you specify. for example, ```touch index.html```
+- ```mkdir``` - make directory - creates a directory with the name you specify, for example ```mkdir images```
+- ```rm``` - remove - removes a file or directory (when used with -r). for example ```rm index.html```
+- ```mv``` - move - used to move or rename files. first specify the file, then the place you want to move it to or its new name.
+- ```man``` - manual - when used with a command, shows you a help file. try ```man ls```
+- ```ps``` - process status - get a list of all running programs/processes
+- ```sudo``` - super user do - executes a command as the super user. i.e. ```sudo rm very-important-file.txt```
+
 # Other Useful commands
 ```git remote -v``` --> check where the remote for your git repo is.
 
