@@ -1,3 +1,41 @@
+# Install Git
+
+**macOS**
+
+If you are using a relatively recent version of macOS it is quite likely that you already have Git installed. If you open Terminal (you can do this by typing command + spacebar to open spotlight search and then typing terminal to find the program) and type git you will see a list of commands if Git is installed. If Git is not installed you will prompted to install it.
+
+You can also install Git from http://git-scm.com/download/mac.
+
+**Windows**
+
+**If you are running WSL/Ubuntu**
+
+Start bash by running cmd.exe and typing
+
+```bash```
+
+Then type
+
+```sudo apt-get install git```
+
+**If you cannot install WSL:**
+
+Download and install Git from https://git-for-windows.github.io/. This will also install Git-Bash, which you will use for your command line.
+
+# Configure Git
+
+```git config --global user.name "YOUR NAME"```
+
+```git config --global user.email YOUREMAIL@example.com```
+
+```git config --global core.editor nano```
+
+Nano is a command line text editor that is easier to use than the alternatives.
+
+# Add your public SSH key to your Github account [OPTIONAL]
+
+Github has instructions for generating and adding an SSH key for both [macOS](https://help.github.com/articles/connecting-to-github-with-ssh/) and [Windows](https://help.github.com/articles/connecting-to-github-with-ssh/). After you add your key, you will be able to take actions on your remote repositories at Github without having to enter your username and password repeatedly.
+
 # Git
 
 Git is a tool that we use for version control. When you're in a git repository (which is just a directory with a ```.git``` directory in it), git tracks all changes for you and lets you package and label them. This is immensely useful when you want to retrace how and why a piece of software was written. And it is equally useful for undoing changes and getting back to earlier versions of your work. There is a lot to know about git, but to get started, let's get acquainted with the basic git workflow you'll be using every day at Spiced.
